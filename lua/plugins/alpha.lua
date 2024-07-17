@@ -3,7 +3,7 @@ return {
   {
     'goolord/alpha-nvim',
     config = function()
-      require 'kickstart.config.alpha'
+      require 'config.alpha'
     end,
   },
 }
