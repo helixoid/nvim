@@ -27,6 +27,7 @@ require('lazy').setup({
   require 'plugins.alpha',
 
   require 'plugins.indent_line',
+
   require 'plugins.lualine',
 }, {
   ui = {
