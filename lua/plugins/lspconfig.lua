@@ -26,6 +26,28 @@ return {
       { 'Bilal2453/luvit-meta', lazy = true },
     },
     config = function()
+      -- Catppuccin colorscheme integration
+      -- native_lsp =
+      --   {
+      --     enabled = true,
+      --     virtual_text = {
+      --       errors = { 'italic' },
+      --       hints = { 'italic' },
+      --       warnings = { 'italic' },
+      --       information = { 'italic' },
+      --       ok = { 'italic' },
+      --     },
+      --     underlines = {
+      --       errors = { 'underline' },
+      --       hints = { 'underline' },
+      --       warnings = { 'underline' },
+      --       information = { 'underline' },
+      --       ok = { 'underline' },
+      --     },
+      --     inlay_hints = {
+      --       background = true,
+      --     },
+      --   },
       -- Brief aside: **What is LSP?**
       --
       -- LSP is an initialism you've probably heard, but might not understand what it is.
@@ -50,7 +72,6 @@ return {
       --
       -- If you're wondering about lsp vs treesitter, you can check out the wonderfully
       -- and elegantly composed help section, `:help lsp-vs-treesitter`
-
       --  This function gets run when an LSP attaches to a particular buffer.
       --    That is to say, every time a new file is opened that is associated with
       --    an lsp (for example, opening `main.rs` is associated with `rust_analyzer`) this
