@@ -31,6 +31,7 @@ require('lualine').setup {
     theme = bubbles_theme,
     component_separators = '',
     section_separators = { left = '', right = '' },
+    disabled_filetypes = { statusline = { 'dashboard', 'alpha', 'ministarter' } },
   },
   sections = {
     lualine_a = { { 'mode', separator = { left = '' }, right_padding = 2 } },
