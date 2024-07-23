@@ -28,7 +28,7 @@ require('lazy').setup({
 
   require 'plugins.indent_line',
 
-  require 'plugins.lualine',
+  -- require 'plugins.lualine',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
